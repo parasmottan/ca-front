@@ -78,7 +78,7 @@ else if (username.trim() === '') {
           placeholder="Type your username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          style={{ padding: '5px', width: '20%' }}
+          style={{ padding: '5px', width: '40vw', fontSize: '16px' }}
         />
         
       </form>
